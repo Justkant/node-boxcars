@@ -1,6 +1,11 @@
 {
-  "name": "@justkant/node-boxcars",
+  "name": "@kant/node-boxcars",
+  "description": "RL Replay Parser for Node.js using napi-rs and boxcars",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Justkant/node-boxcars.git"
+  },
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {

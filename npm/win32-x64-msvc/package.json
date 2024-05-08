@@ -1,5 +1,6 @@
 {
-  "name": "@justkant/node-boxcars-win32-x64-msvc",
+  "name": "@kant/node-boxcars-win32-x64-msvc",
+  "description": "RL Replay Parser for Node.js using napi-rs and boxcars",
   "version": "0.0.1",
   "os": [
     "win32"
@@ -14,5 +15,9 @@
   "license": "MIT",
   "engines": {
     "node": ">= 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Justkant/node-boxcars.git"
   }
 }
