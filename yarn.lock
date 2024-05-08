@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@justkant/node-boxcars@workspace:.":
+"@kant/node-boxcars@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@justkant/node-boxcars@workspace:."
+  resolution: "@kant/node-boxcars@workspace:."
   dependencies:
     "@napi-rs/cli": "npm:^2.18.3"
     ava: "npm:^6.1.3"
