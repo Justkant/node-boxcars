@@ -310,7 +310,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { readFile, readFiles } = nativeBinding
+const { readFile, readFileHeader } = nativeBinding
 
 module.exports.readFile = readFile
-module.exports.readFiles = readFiles
+module.exports.readFileHeader = readFileHeader
