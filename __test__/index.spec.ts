@@ -1,11 +1,9 @@
-// @ts-check
 import test from "ava";
-
-import { readFile, readFileHeader } from "../index.js";
+import { readFile, readFileHeader } from "../index";
 
 test("readFile from native", (t) => {
   const res = readFile(
-    "./__test__/demos/61F74DFC4C42C4FB11F1FABECB0C561B.replay"
+    "./__test__/demos/61F74DFC4C42C4FB11F1FABECB0C561B.replay",
   );
   const json = JSON.parse(res);
   console.log(json);
@@ -20,7 +18,7 @@ test("readFile from native", (t) => {
 
 test("readFileHeader from native", (t) => {
   const res = readFileHeader(
-    "./__test__/demos/61F74DFC4C42C4FB11F1FABECB0C561B.replay"
+    "./__test__/demos/61F74DFC4C42C4FB11F1FABECB0C561B.replay",
   );
   const json = JSON.parse(res);
   console.log(json);
