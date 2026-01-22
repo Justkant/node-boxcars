@@ -1,5 +1,6 @@
 target
 .yarn
+index.d.ts
 index.js
 package-template.wasi-browser.js
 package-template.wasi.cjs

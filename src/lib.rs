@@ -1,6 +1,5 @@
 #![deny(clippy::all)]
 use boxcars::{ParseError, Replay};
-use minicbor_serde;
 use napi::bindgen_prelude::Uint8Array;
 use napi_derive::napi;
 use std::fs;
