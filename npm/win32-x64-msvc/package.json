@@ -1,7 +1,7 @@
 {
   "name": "@kant/node-boxcars-win32-x64-msvc",
   "description": "RL Replay Parser for Node.js using napi-rs and boxcars",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "os": [
     "win32"
   ],
