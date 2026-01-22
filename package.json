@@ -56,6 +56,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@jsonjoy.com/json-pack": "^17.65.0",
     "@napi-rs/cli": "^3.5.1",
     "@oxc-node/core": "^0.0.35",
     "@taplo/cli": "^0.7.0",

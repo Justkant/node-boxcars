@@ -297,10 +297,79 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jsonjoy.com/base64@npm:17.65.0":
+  version: 17.65.0
+  resolution: "@jsonjoy.com/base64@npm:17.65.0"
+  peerDependencies:
+    tslib: 2
+  checksum: 10c0/44d014fa409e31379fbf4e19f95483dd988bbffb69b005840fdf1efe9900bf8abbce395fa37d4249607674fea552ce858cf427912510f6f37b4f2d18b646b488
+  languageName: node
+  linkType: hard
+
+"@jsonjoy.com/buffers@npm:17.65.0":
+  version: 17.65.0
+  resolution: "@jsonjoy.com/buffers@npm:17.65.0"
+  peerDependencies:
+    tslib: 2
+  checksum: 10c0/493ca68067d6ae5ee12623223f63f538f1b2a5ab606288d214763c4a16f5698e42bb1f86a718ea163b747f5fb17490849959ce89af76691e21a8f31627d75746
+  languageName: node
+  linkType: hard
+
+"@jsonjoy.com/codegen@npm:17.65.0":
+  version: 17.65.0
+  resolution: "@jsonjoy.com/codegen@npm:17.65.0"
+  peerDependencies:
+    tslib: 2
+  checksum: 10c0/c34c4d54bc50330e4c593d58ca02f119c8d15f5d752ab9a33ac95366ef3de81cc66954400a0d890ab8ba91f2513df7b2ddc01c957c3f23f439eee2376c0c99a4
+  languageName: node
+  linkType: hard
+
+"@jsonjoy.com/json-pack@npm:^17.65.0":
+  version: 17.65.0
+  resolution: "@jsonjoy.com/json-pack@npm:17.65.0"
+  dependencies:
+    "@jsonjoy.com/base64": "npm:17.65.0"
+    "@jsonjoy.com/buffers": "npm:17.65.0"
+    "@jsonjoy.com/codegen": "npm:17.65.0"
+    "@jsonjoy.com/json-pointer": "npm:17.65.0"
+    "@jsonjoy.com/util": "npm:17.65.0"
+    hyperdyperid: "npm:^1.2.0"
+    thingies: "npm:^2.5.0"
+    tree-dump: "npm:^1.1.0"
+  peerDependencies:
+    tslib: 2
+  checksum: 10c0/e5db5601d98262c4ae4b371fe9afa1ee6c40630488949a18971a807d3d7f180e6b463ad36b1b4ff5212fd2eaf1f07cf611e059a4b846c0d8feae4a64a624f996
+  languageName: node
+  linkType: hard
+
+"@jsonjoy.com/json-pointer@npm:17.65.0":
+  version: 17.65.0
+  resolution: "@jsonjoy.com/json-pointer@npm:17.65.0"
+  dependencies:
+    "@jsonjoy.com/util": "npm:17.65.0"
+  peerDependencies:
+    tslib: 2
+  checksum: 10c0/3f3125204f2462e7b1fdb2d8f0a917713040dc5ab89458a529b524ce399aef6bda7105cbf661ef30e254514a73147d6c6c863bfd89d7fb8f386ac7d5a5605696
+  languageName: node
+  linkType: hard
+
+"@jsonjoy.com/util@npm:17.65.0":
+  version: 17.65.0
+  resolution: "@jsonjoy.com/util@npm:17.65.0"
+  dependencies:
+    "@jsonjoy.com/buffers": "npm:17.65.0"
+    "@jsonjoy.com/codegen": "npm:17.65.0"
+  peerDependencies:
+    tslib: 2
+  checksum: 10c0/c8eb05d060760fae99fd76f7d86ac8a5a6ef645af2325f8146f788c517fff59a8f308637136fdebebf481b45784a15f0093efb1f79425605a9039a523f1c0f3d
+  languageName: node
+  linkType: hard
+
 "@kant/node-boxcars@workspace:.":
   version: 0.0.0-use.local
   resolution: "@kant/node-boxcars@workspace:."
   dependencies:
+    "@jsonjoy.com/json-pack": "npm:^17.65.0"
     "@napi-rs/cli": "npm:^3.5.1"
     "@oxc-node/core": "npm:^0.0.35"
     "@taplo/cli": "npm:^0.7.0"
@@ -2152,6 +2221,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hyperdyperid@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "hyperdyperid@npm:1.2.0"
+  checksum: 10c0/885ba3177c7181d315a856ee9c0005ff8eb5dcb1ce9e9d61be70987895d934d84686c37c981cceeb53216d4c9c15c1cc25f1804e84cc6a74a16993c5d7fd0893
+  languageName: node
+  linkType: hard
+
 "iconv-lite@npm:^0.7.2":
   version: 0.7.2
   resolution: "iconv-lite@npm:0.7.2"
@@ -3033,6 +3109,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"thingies@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "thingies@npm:2.5.0"
+  peerDependencies:
+    tslib: ^2
+  checksum: 10c0/52194642c129615b6af15648621be9a2784ad25526e3facca6c28aa1a36ea32245ef146ebc3fbaf64a3605b8301a5335da505d0c314f851ff293b184e0de7fb9
+  languageName: node
+  linkType: hard
+
 "time-zone@npm:^1.0.0":
   version: 1.0.0
   resolution: "time-zone@npm:1.0.0"
@@ -3060,6 +3145,15 @@ __metadata:
   version: 0.0.3
   resolution: "tr46@npm:0.0.3"
   checksum: 10c0/047cb209a6b60c742f05c9d3ace8fa510bff609995c129a37ace03476a9b12db4dbf975e74600830ef0796e18882b2381fb5fb1f6b4f96b832c374de3ab91a11
+  languageName: node
+  linkType: hard
+
+"tree-dump@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "tree-dump@npm:1.1.0"
+  peerDependencies:
+    tslib: 2
+  checksum: 10c0/079f0f0163b68ee2eedc65cab1de6fb121487eba9ae135c106a8bc5e4ab7906ae0b57d86016e4a7da8c0ee906da1eae8c6a1490cd6e2a5e5ccbca321e1f959ca
   languageName: node
   linkType: hard
 
